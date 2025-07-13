@@ -1,9 +1,20 @@
+variable "ami" {
+  type    = string
+  default = "ami-05ffe3c48a9991133"
+}
+
 variable "creator" {
-  type = string
+  type    = string
   default = "mounika"
 }
 
-variable "ami" {
-  type = string
-  default = "ami-0c5d10c64897b15df"
+variable "s3_bucket" {
+  description = "List of S3 bucket names"
+  type        = list(string)
+  default = [ "mounika-terraform-bucket101"]
 }
+
+
+
+
+

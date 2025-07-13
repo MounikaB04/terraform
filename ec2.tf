@@ -7,3 +7,10 @@ resource "aws_instance" "ec2" {
     created_by = var.creator
   }
 }
+
+
+module "example" {
+  source = "./modules"
+  ami = var.ami
+
+}
