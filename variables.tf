@@ -8,11 +8,11 @@ variable "creator" {
   default = "mounika"
 }
 
-variable "s3_bucket" {
-  description = "List of S3 bucket names"
-  type        = list(string)
-  default = [ "mounika-terraform-bucket101"]
-}
+# variable "s3_bucket" {
+#   description = "List of S3 bucket names"
+#   type        = list(string)
+#   default = [ "mounika-terraform-bucket101"]
+# }
 
 
 
