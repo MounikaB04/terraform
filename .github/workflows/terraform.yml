@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.LuEIJg+XAtmxfQEj8mwI3jfqWnsxA8hAwNoAdauC }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AKIASCZ3EQTLTA2IXCUB }}
-      AWS_REGION: ${{ secrets.us-east-1 }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
 
     steps:
       - name: Checkout code
