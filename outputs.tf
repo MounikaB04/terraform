@@ -11,6 +11,4 @@ output "private_ip" {
   value = module.example.private_ip
 }
 
-output "bucket_names" {
- value = [for b in data.aws_s3_bucket.existing_buckets : b.bucket]
-}
+
